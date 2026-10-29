@@ -12,7 +12,7 @@ function Navbar() {
     };
 
     return (
-        <nav className="flex flex-col items-center justify-between gap-4 border-b border-slate-700 bg-slate-950 px-6 py-5 text-white sm:flex-row sm:px-10">
+        <nav className="sticky top-0 z-50 flex flex-col items-center justify-between gap-4 border-b border-slate-700 bg-slate-950 px-6 py-5 text-white sm:flex-row sm:px-10 sticky">
             <h2 className="text-2xl font-bold">
                 Portofolio
             </h2>
